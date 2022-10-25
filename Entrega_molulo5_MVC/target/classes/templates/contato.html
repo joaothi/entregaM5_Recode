@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>JT Viagens</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+  <script src='main.js'></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <!-- conteiner principal-->
+
+    <header>
+      <!-- inicio da navbar-->
+
+      <nav class="navbar navbar-expand-lg navbar-light backcolor">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">JT Viagens</a> <!-- logo -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="destino.html">Destinos</a>
+              <a class="nav-link" href="promocao.html">Promoções</a>
+              <a class="nav-link" href="contato.html">Contato</a>
+              <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+              <!-- item desabilitado, usar numa próxima expansao -->
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </header> <!-- fim da navbar-->
+
+
+    <section>
+      <!-- inicio do jumbotron-->
+
+      <div class="mt-4 p-5 backcolor2 text-white rounded">
+        <h1>JT Viangens:</h1>
+        <h2>Faça sua viagem / excursão escolar de forma descomplicada!</h2>
+        <p>Pacotes para destinos incríveis no Rio de Janeiro (em breve em todo o Brasil).</p>
+      </div>
+
+
+    </section> <!-- fim do jumbotron-->
+
+
+  <!-- inicio do formulário-->
+
+
+<div class="container py-4">
+
+  
+  <form id="contactForm">
+
+    
+    <div class="mb-3">
+      <label class="form-label" for="name">Nome</label>
+      <input class="form-control" id="name" type="text" placeholder="Nome e Sobrenome" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label" for="name">E-mail</label>
+      <input class="form-control" id="name" type="text" placeholder="E-mail" />
+    </div>
+    
+   
+    <div class="mb-3">
+      <label class="form-label" for="message">Mensagem</label>
+      <textarea class="form-control" id="message" type="text" placeholder="Escreva aqui..." style="height: 10rem;"></textarea>
+    </div>
+
+    <div class="d-grid">
+      <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+    </div>
+
+  </form>
+
+</div>
+
+    <br>
+
+    <!-- fim do formulário-->
+
+
+    <!-- inicio do rodapé-->
+
+    <div class="container my-5">
+
+      <footer class="backcolor2 text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Se inscreva em nossa newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" class="form-control" />
+                    <label class="form-label" for="form5Example2">Endereço de e-mail</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Enviar
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://jtviagens.com">JTViagens.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    </div>
+    <!-- inicio do rodapé-->
+
+
+  </div> <!-- conteiner principal-->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
